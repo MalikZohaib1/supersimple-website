@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@300;400&display=swap');
+
+:root {
+    --main-bg-color: #25173e;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--main-bg-color);
+    font-family: 'Roboto', sans-serif;
+    position: fixed;
+}
+
+ul li a:hover {
+    color: #73797e;
+    ;
+}
+
+ul li a {
+    text-decoration: none;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+
+nav {
+    display: flex;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 172px;
+    padding: 0 174px;
+    height: 110px;
+}
+
+nav ul {
+    height: 20vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-container h1 {
+    font-size: 45px;
+}
+
+.main-container p {
+    font-size: 17px;
+}
+
+.main-container h2 {
+    font-size: 35px;
+}
+
+.main-container h4 {
+    font-size: 25px;
+}
+
+.main-container ul {
+    padding: 12px 50px;
+    font-size: 20px;
+}
+
+.main-container li {
+    padding: 4px;
+}
+
+blockquote {
+    padding: 0px 20px;
+
+}
+
+.main-container {
+    padding: 55px;
+}
+
+.main-container a {
+    text-decoration: none;
+    color: green;
+}
+
+.main-container a:hover {
+    color: #73797e;
+}
+
+.main-container img {
+    width: 700px;
+}
+
+.custombtn {
+    list-style: inside;
+}
+
+footer {
+    height: 55vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex-all-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 350px;
+    height: 160px;
+    padding: 0 414px;
+    padding-top: 24px;
+}
+
+.footer-logo img {
+    max-height: none;
+    max-width: 100%;
+}
+
+.footer-links ul {
+    padding: 0px 350px;
+}
+
+.col-lg-8 {
+    padding: 12px 477px;
+}
+
+.footer-links ul li {
+    list-style: inside;
+}
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .logo, .main-container, .container {
+      width: 100%;
+    }
+  }
